@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F4C75;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-logo img {
+    width: 100px;
+    
+
+}
+
+.navbar-links {
+    font-size: 26px;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 560px;
+    
+
+}
+
+
+.navbar-links {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth"87.5,
+        "YTLC"500;
+    
+}
+
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+
+.ani {
+    transition: all 1s none ease-in-out;
+    -webkit-transition: all 1s none ease-in-out;
+    -moz-transition: all 1s none ease-in-out;
+    -ms-transition: all 1s none ease-in-out;
+    -o-transition: all 1s none ease-in-out;
+}
+
+.ani:hover{
+    transition: all 0.1s ease-in-out;
+    background-color: #3282B8;
+    border: 1px solid #3282B8;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
+
+
+
+.logo {
+    height: 70px;
+    width: auto;
+}
